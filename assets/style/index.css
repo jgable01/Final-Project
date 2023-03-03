@@ -163,6 +163,7 @@ header {
 .project1,
 .project2,
 .project3 {
+  z-index: 100;
   padding: 15px;
   border-radius: 13px;
   background-color: #333333;
