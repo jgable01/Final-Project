@@ -28,12 +28,15 @@ body {
 
 header {
   width: 100%;
-  height: 75px;
-  background: #11101b;
+  height: 100px;
+  background: #333333;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0 100px;
+  box-shadow:
+    2px 2px 4px rgba(0, 0, 0, 0.3),
+    2px 2px 4px rgba(255, 255, 255, 0.5);
 }
 
 .logo {
@@ -59,14 +62,15 @@ header {
   border-radius: 50px;
   margin: 0 5px;
 }
+
 .navbar ul li a:hover {
   color: #11101b;
-  background: #fefefe;
+  background: #ff9933;
 }
 
 .navbar ul li a.active {
   color: #11101b;
-  background: #fefefe;
+  background: #ff9933;
 }
 
 /* - - - - - - - - - - - - - - - - - - - - - - - */
@@ -86,7 +90,7 @@ header {
 }
 
 @media (max-width: 900px) {
-  
+
   .dropdown {
     cursor: pointer;
     display: block;
@@ -110,7 +114,7 @@ header {
     right: 0;
     width: 100vw;
   }
-  
+
   .navbar.active {
     height: 450px;
   }
@@ -144,8 +148,8 @@ header {
 }
 
 .title-projects {
-  color: #fff;
-  font-size: 60px;
+  color: #333333;
+  font-size: 40px;
   font-weight: 600;
 }
 
@@ -156,22 +160,32 @@ header {
   margin-top: 50px;
 }
 
-.project1, .project2, .project3 {
+.project1,
+.project2,
+.project3 {
   padding: 15px;
   border-radius: 13px;
-  background-color: #11101b;
+  background-color: #333333;
   position: relative;
   overflow: hidden;
   transition: transform 0.33s;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3),
+    2px 2px 4px rgba(255, 255, 255, 0.5);
 }
-.project1 h3, .project2 h3, .project3 h3{
+
+
+.project1 h3,
+.project2 h3,
+.project3 h3 {
   color: #fff;
   text-align: center;
   font-size: 22px;
   font-weight: 500;
 }
 
-.project1 p, .project2 p, .project3 p{
+.project1 p,
+.project2 p,
+.project3 p {
   padding: 7px;
   color: #fff;
   text-align: center;
@@ -188,10 +202,13 @@ header {
   font-weight: 400;
 }
 
-.project1:hover, .project2:hover, .project3:hover {
+.project1:hover,
+.project2:hover,
+.project3:hover {
   cursor: pointer;
+  color: #11101b;
   transform: scale(1.1);
-  background-color: rgba(255, 255, 255, 0.05);
+  background-color: #ff9933;
 }
 
 /* - - - - - - - - - - - - - - - - - - - - - - - */
