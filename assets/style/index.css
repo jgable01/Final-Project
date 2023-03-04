@@ -181,15 +181,15 @@ header {
   color: #fff;
   text-align: center;
   font-size: 22px;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .project1 p,
 .project2 p,
 .project3 p {
-  padding: 7px;
+  padding: 3px;
   color: #fff;
-  text-align: center;
+  text-align: justify;
   font-size: 16px;
   font-weight: 400;
 }
@@ -232,14 +232,14 @@ header {
 }
 
 .contactUs .content h2 {
-  font-size: 60px;
+  font-size: 40px;
   font-weight: 500;
-  color: #fff;
+  color: #333333;
 }
 
 .contactUs .content p {
   font-weight: 300;
-  color: #fff;
+  color: #333333;
 }
 
 .contactForm {
@@ -252,7 +252,7 @@ header {
 
 .contactForm h2 {
   font-size: 30px;
-  color: #333;
+  color: #333333;
   font-weight: 500;
 }
 
@@ -270,7 +270,7 @@ textarea {
   font-size: 16px;
   margin: 10px 0;
   border: none;
-  border-bottom: 2px solid #333;
+  border-bottom: 2px solid #333333;
   resize: none;
 }
 
@@ -282,7 +282,7 @@ textarea {
   margin: 10px 0;
   pointer-events: none;
   transition: 0.5s;
-  color: #666;
+  color: #333333;
 
 }
 

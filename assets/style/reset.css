@@ -5,11 +5,13 @@
 /* - - - - - - - - - - - - - - - - - - - - - - - */
 
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
     box-sizing: border-box;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: inherit;
@@ -28,6 +30,7 @@ html {
     /* ??? */
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    font-style: italic;
 }
 
 body {
@@ -35,27 +38,46 @@ body {
 
 }
 
-ul, ol {
+ul,
+ol {
     list-style: none;
 }
 
-img, picture, video, canvas, svg {
+img,
+picture,
+video,
+canvas,
+svg {
     display: block;
     max-width: 100%;
 }
 
-p, h1, h2, h3, h4, h5, h6 {
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     overflow-wrap: break-word;
 }
 
-li, a, i, figure, img, button, input[type=button], input[type=submit] {
+li,
+a,
+i,
+figure,
+img,
+button,
+input[type=button],
+input[type=submit] {
     -webkit-user-select: none;
-       -moz-user-select: none;
-            user-select: none;
-            text-decoration: none;
+    -moz-user-select: none;
+    user-select: none;
+    text-decoration: none;
 }
 
-input[type=button], input[type=submit], input[type=reset] {
+input[type=button],
+input[type=submit],
+input[type=reset] {
     cursor: pointer;
 }
-
