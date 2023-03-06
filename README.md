@@ -3,7 +3,7 @@
 At WinTech we provide value added services that makes you standout. We are a group of expirenced and dedicated team. 
 
 ### We bring your ideas into reality.
-Click [here](https://jasonadindu.github.io/test/) to know more about us 
+Click [here](https://jgable01.github.io/Final-Project/) to know more about us 
 
 <br />
 
