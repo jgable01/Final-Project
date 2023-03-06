@@ -1,6 +1,6 @@
 ### Welcome to WinTech
 
-At WinTech we provide value added '''services''' that makes you standout. We are a group of '''expirenced''' and '''dedicated team'''. 
+At WinTech we provide value added ```services``` that makes you standout. We are a group of ```expirenced``` and ```dedicated team```. 
 
 ### We bring your ideas into reality.
 Click [here](https://jgable01.github.io/Final-Project/) to know more about us 
@@ -13,4 +13,4 @@ Click [here](https://jgable01.github.io/Final-Project/) to know more about us
 
 
 ### WinTech
-'''Pride of the Silicon Valley'''
+```Pride of the Silicon Valley```
